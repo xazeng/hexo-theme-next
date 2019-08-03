@@ -608,10 +608,10 @@ reading_progress:
 
 # Disqus
 disqus:
-  enable: false
-  shortname:
+  enable: true
+  shortname: zens-blog
   count: true
-  lazyload: false
+  lazyload: true
 
 # DisqusJS
 # Alternative Disqus - Render comment component using Disqus API.
@@ -740,7 +740,7 @@ growingio_analytics: # <project_id>
 
 # Google Analytics
 google_analytics:
-  tracking_id: # <app_id>
+  tracking_id: UA-100898985-1# <app_id>
   localhost_ignored: true
 
 # CNZZ count
@@ -811,7 +811,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: false
+  enable: true
   total_visitors: true
   total_visitors_icon: user
   total_views: true
